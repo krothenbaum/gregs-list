@@ -1,0 +1,125 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	padding: 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: #EEEEEE;
+	display: block;
+	border-bottom: solid #DDDDDD 1px;
+}
+
+header h1 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+nav {
+	display: block;
+}
+
+.nav-bar {
+	font-size: 18px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.nav-pages {
+	font-size: 0;
+	margin-bottom: 40px;
+}
+
+.nav-pages a, span {
+	font-size: 17px;
+	padding: 10px;
+}
+
+.nav-pages a {
+	border: solid #EEEEEE 1px;
+	border-radius: 5px;
+	color: black;
+}
+
+.nav-pages span {
+	border-top: solid #EEEEEE 1px;
+	border-bottom: solid #EEEEEE 1px;
+}
+
+section {
+	display: block;
+	font-size: 17px;
+	margin-bottom: 40px;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+label {
+	font-size: 16px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 400px;
+	height: 35px;
+	border: solid #EEEEEE 1px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 18px;
+}
+
+button {
+	height: 35px;
+	background-color: white;
+	border: solid #EEEEEE 1px;
+	border-radius: 5px;
+	vertical-align: bottom;
+}
+
+.search-icon {
+	height: 100%
+}
+
+ul {
+	display: block;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.date, .location {
+	font-size: 16px;
+	color: #AAAAAA;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
